@@ -1,0 +1,19 @@
+// Colors for text
+$main-color-text: #0C5BEF;
+$black-color-text: #222327;
+$secondary-color-text: #A1A7B5;
+
+// color for small elements
+$background-badge: #F0F6FE;
+
+// others
+$main-color-border: #0F62FE;
+
+// size for text
+$size: 30px;
+
+// mixins
+@mixin flex-col {
+  display: flex;
+  flex-direction: column;
+}
