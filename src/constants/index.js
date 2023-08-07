@@ -1,1 +1,1 @@
-export const BASE_URL = 'http://flems.github.io/test/api/news'
+export const BASE_URL = 'https://flems.github.io/test/api/news'

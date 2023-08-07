@@ -9,7 +9,7 @@
 <style lang='scss' scoped>
 .subheader {
   height: 320px;
-  background: url('../../assets/images/main-bg.png');
+  background: url('@/assets/images/main-bg.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

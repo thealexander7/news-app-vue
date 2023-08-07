@@ -1,16 +1,17 @@
 <script setup>
-import VFooter from '@/components/layout/VFooter.vue';
-import VHeader from '@/components/layout/VHeader.vue';
-import VSubheader from '@/components/layout/VSubHeader.vue';
+import VFooter from '@/components/layout/TheFooter.vue';
+import VHeader from '@/components/layout/TheHeader.vue';
+
+import SubHeader from '@/components/SubHeader.vue';
 </script>
 
 <template>
-  <v-header></v-header>
-  <v-subheader></v-subheader>
+  <v-header />
+  <sub-header></sub-header>
   <main class='container'>
     <RouterView />
   </main>
-  <v-footer></v-footer>
+  <v-footer />
 </template>
 
 <style scoped></style>
