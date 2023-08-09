@@ -5,7 +5,7 @@
  </button>
 </template>
 <style lang='scss' scoped>
-@import '../../assets/main';
+@import '@/assets/main';
 .primary-button {
   border-radius: 16px;
   background-color: transparent;

@@ -1,17 +1,17 @@
 <script setup>
-import VFooter from '@/components/layout/TheFooter.vue';
-import VHeader from '@/components/layout/TheHeader.vue';
+import TheFooter from '@/components/layout/TheFooter.vue';
+import TheHeader from '@/components/layout/TheHeader.vue';
 
 import SubHeader from '@/components/SubHeader.vue';
 </script>
 
 <template>
-  <v-header />
+  <TheHeader />
   <sub-header></sub-header>
-  <main class='container'>
+  <main class="container">
     <RouterView />
   </main>
-  <v-footer />
+  <TheFooter />
 </template>
 
 <style scoped></style>
